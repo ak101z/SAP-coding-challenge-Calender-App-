@@ -1,1 +1,108 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300');
+
+body {
+    display: flex;
+    background: white ;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.schedule {
+    position: relative;
+    height: 720px;
+    width: 600px;
+    background-color:#ECECEC;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.timeline {
+    width: 100px;
+    height: 720px;
+    display: inline-block;
+    background-color: 'black';
+}
+
+.time {
+    color: #7f8c8d;
+    font-size: 9px;
+}
+
+.date {
+    color: #c0392b;
+    font-style: normal;
+    font-weight: 300;
+}
+
+em {
+    color: #c0392b;
+    font-style: normal;
+    font-weight: 300;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    position: absolute;
+    width: 100%;
+    list-style-type: none;
+    display: inline-block;
+    border-left: 5px solid #53A88C;
+    padding: 5px 8px;
+    background: white;
+    margin: 5px;
+}
+
+ul.timeList {
+    padding: 0 10px;
+}
+
+ul.timeList li {
+    position: relative;
+    background: transparent;
+    border: none;
+    display: block;
+    margin: 0px;
+    font-size: 10px;
+    color: #7f8c8d;
+    padding: 4.4px 0;
+    height: 20px;
+    text-align: right;
+}
+
+ul.timeList li:nth-child(odd){
+    font-weight:bold;
+    font-size: 14px;
+    color: black;
+}​
+
+ul li.open {
+    border-color: rgba(230, 126, 34, 1.0);
+}
+
+ul li h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: white;
+    font-weight: 100;
+}
+
+ul li p {
+    margin: -1px 0;
+    padding: 0;
+    font-size: .8em;
+    color: rgba(149, 165, 166, 1.0);
+}
+
+ul li time {
+    margin: -4px 0;
+    padding: 0;
+    font-size: .8em;
+    color: rgba(149, 165, 166, 1.0);
+}

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "calender-app"
+    }
+  },
+  "defaultProject": "calender-app",
+  "cli": {
+    "analytics": false
+  }
 }
