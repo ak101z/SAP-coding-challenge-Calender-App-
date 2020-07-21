@@ -14,6 +14,7 @@ body {
     width: 600px;
     background-color:#ECECEC;
     padding: 10px;
+   
     overflow: hidden;
     display: inline-block;
 }
@@ -53,7 +54,7 @@ ul li {
     list-style-type: none;
     display: inline-block;
     border-left: 5px solid #53A88C;
-    padding: 5px 8px;
+    padding: 0px 8px;
     background: white;
     margin: 5px;
 }
